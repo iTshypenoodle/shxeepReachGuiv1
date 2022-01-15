@@ -65,7 +65,7 @@ local UI = Material.Load({
 --page bypass stuffj
 
 UIS.InputBegan:Connect(function(input, gameProcessedEvent)
-	if input.KeyCode == Enum.KeyCode.X then
+	if input.KeyCode == Enum.KeyCode.F then
 		game:GetService("CoreGui")["Sebs Darkside"].Enabled = not game:GetService("CoreGui")["Sebs Darkside"].Enabled
 	end	
 end)
